@@ -1,0 +1,1 @@
+adc_dma_temperature_voltage_3.3v\startup_stm32f103xb.o: startup_stm32f103xb.s

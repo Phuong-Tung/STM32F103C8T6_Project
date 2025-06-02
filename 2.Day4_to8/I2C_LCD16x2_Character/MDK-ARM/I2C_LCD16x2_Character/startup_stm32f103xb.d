@@ -1,0 +1,1 @@
+i2c_lcd16x2_character\startup_stm32f103xb.o: startup_stm32f103xb.s

@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"wachdog_indepent_iwdg\startup_stm32f103xb.o"
+"wachdog_indepent_iwdg\main.o"
+"wachdog_indepent_iwdg\stm32f1xx_it.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal_msp.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal_gpio_ex.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal_iwdg.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal_rcc.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal_rcc_ex.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal_gpio.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal_dma.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal_cortex.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal_pwr.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal_flash.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal_flash_ex.o"
+"wachdog_indepent_iwdg\stm32f1xx_hal_exti.o"
+"wachdog_indepent_iwdg\system_stm32f1xx.o"
+--strict --scatter "Wachdog_Indepent_IWDG\Wachdog_Indepent_IWDG.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Wachdog_Indepent_IWDG.map" -o Wachdog_Indepent_IWDG\Wachdog_Indepent_IWDG.axf
